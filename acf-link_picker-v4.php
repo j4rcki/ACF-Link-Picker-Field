@@ -144,8 +144,8 @@ class acf_field_link_picker extends acf_field {
                 </div>
             </p>
             <p>
-                <a href="" class="link-btn acf-button grey" id="link-picker-<?php echo $field['key']; ?>"><?php if (!$exists) { echo 'Insert'; }else{ echo 'Edit'; } ?> Link</a>
-                <a href="" class="link-remove-btn acf-button grey" id="link-picker-<?php echo $field['key']; ?>-remove"<?php if (!$exists) { echo ' style="display:none;"'; } ?>>Remove Link</a>
+                <a href="#" class="link-btn acf-button grey" id="link-picker-<?php echo $field['key']; ?>"><?php if (!$exists) { echo 'Insert'; }else{ echo 'Edit'; } ?> Link</a>
+                <a href="#" class="link-remove-btn acf-button grey" id="link-picker-<?php echo $field['key']; ?>-remove"<?php if (!$exists) { echo ' style="display:none;"'; } ?>>Remove Link</a>
             </p>
 		</div>
 		<?php
